@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+
+  border-color: antiquewhite;
+  border-radius: 10px;
+
+}
+
+
+.container {
+  background-color: rgb(211, 189, 211);
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.top_section h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #060ae8;
+  text-transform: uppercase;
+
+}
+
+.top_section h4 {
+
+  color: #0a0db1;
+  font-size: 25px;
+  text-decoration: underline;
+
+
+}
+
+.image_container img {
+  width: 290px;
+  height: 320px;
+  box-sizing: border-box;
+  border-radius: 20%;
+  border-color: rgb(13, 12, 12);
+  border-radius: 20px;
+}
+
+
+.image_container {
+  border: 3px solid rgb(7, 0, 0);
+
+}
+
+
+.About_Section {
+  margin-top: 50px;
+}
+
+.About_Section h2 {
+
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #1d7e2f;
+}
+
+.About_Section p {
+
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.Achievements_Section {
+  margin-top: 50px;
+}
+
+.Achievements_Section h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #f53905;
+}
+
+.Achievements_Section p {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
